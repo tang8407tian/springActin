@@ -1,6 +1,7 @@
 package ttac.cn.controller.event.demo;
 
 import org.springframework.context.ApplicationEvent;
+import org.springframework.stereotype.Component;
 
 /**
  * @Description:

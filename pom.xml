@@ -19,10 +19,16 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>4.3.11.RELEASE</version>
+    </dependency>
 
+    <!--spring-->
     <dependency>
       <!--组织的唯一标识-->
       <groupId>org.springframework</groupId>
@@ -31,7 +37,12 @@
       <!--项目的版本-->
       <version>5.0.1.RELEASE</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>4.3.12.RELEASE</version>
+    </dependency>
+    <!--spring end-->
     <!--日志-->
     <dependency>
       <groupId>log4j</groupId>
@@ -41,14 +52,32 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.12</version>
+      <version>1.7.22</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
-      <version>1.7.12</version>
+      <version>1.7.22</version>
+    </dependency>
+    <!--ch.qos.logback 用于xml方式配置日志文件:logback.xml -->
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.1.11</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.1.11</version>
     </dependency>
 
+    <!--日志end-->
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+    </dependency>
   </dependencies>
   <!--设置项目语言环境等级-->
   <build>

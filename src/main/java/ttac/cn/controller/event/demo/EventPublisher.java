@@ -9,6 +9,8 @@ import org.springframework.stereotype.Component;
  * @author: 唐棒
  * @date: 2018/1/23-17:35
  */
+// 定义Spring管理Bean
+// 添加注册bean的注解
 @Component
 public class EventPublisher {
 
